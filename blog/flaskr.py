@@ -82,7 +82,7 @@ def add_entry():
 
     return redirect(url_for('show_entries'))
 
-@app.route('/login', methods = ['GET', 'POST'])
+@app.route('/login/', methods = ['GET', 'POST'])
 
 def login():
 
